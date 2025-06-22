@@ -1,4 +1,5 @@
 # The Javashark Extensions
-A extension Gallery made by 2 idiots who somewhat know what they are doing.
 
-btw made for mainly PMod.
+A cool collection of extensions put into a simple gallery made by marine_bakery.
+
+btw made for mainly [PenguinMod](https://penguinmod.com/).
