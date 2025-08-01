@@ -1,0 +1,123 @@
+
+body {
+    font-family: Cal Sans, Sans-serif;
+    background-color: rgb(16, 17, 17);
+}
+
+a {
+    color: #4581da;
+    text-decoration: none;
+}
+
+h1, h2, p {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    width: 30%;
+    height: 5px;
+    background-color: #202020;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+}
+
+#topbar-text {
+    color: white;
+    font-size: 46px;
+    text-align: center;
+}
+
+#topbar {
+    background-color: rgb(36, 37, 37);
+    padding: 10px;
+    height: 115px;
+    justify-content: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+#topbar > img {
+    margin: 30px;
+}
+
+#credits-text {
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+}
+
+#topbar, .extension, footer {
+    border-radius: 10px;
+    border: #3a3a3a 2px solid;
+}
+
+.extension {
+    background-color: rgb(36, 37, 37);
+    width: 300px;
+    height: 400px;
+    
+    padding: 20px;
+    margin: 20px;
+
+    /*display: inline-block;*/
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+.extension > h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.extension > p {
+    margin-top: 5px;
+}
+
+.extension > img {
+    max-width: 300px;
+    max-height: 170px;
+    border-radius: 10px;
+}
+
+.extension > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    height: 100%;
+}
+
+.extension > div > p {
+    margin-bottom: 5px;
+    white-space: pre;
+}
+
+.extension_list_host {
+    display: flex;
+    justify-content: center;
+}
+
+.extension-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33%);
+    width: 1150px;
+}
+
+footer {
+    background-color: rgb(36, 37, 37);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: auto;
+    margin-top: 20px;
+}
+
+footer > p {
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    text-align: center;
+    white-space: pre;
+}

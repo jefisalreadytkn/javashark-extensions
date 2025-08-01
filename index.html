@@ -1,201 +1,172 @@
 <html>
   <head>
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javashark Extensions</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="icon" type="image/x-icon" href="https://jefisalreadytkn.github.io/javashark-extensions/img/javashark_logo.png">
-    <meta property="og:site_name" content="JavaShark Extensions">
+
+
+    <title>Javashark Extension List</title>
+    <link rel="icon" type="image/x-icon" href="img/javashark_logo.png">
+    <meta property="og:site_name" content="JavaShark Extension List">
+
+    <link href="style.css" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
-    <style>
-        body {
-          font-family: Cal Sans, Sans-serif;
-          background-color: rgb(16, 17, 17);
-        }
-        
-        .topbar-text {
-          color: white;
-          font-size: 46px;
-          text-align: center;
-          float: left;
-          padding-left: 50px;
-          justify-content: center;;
-        }
-
-        .topbar {
-            background-color: rgb(36, 37, 37);
-            padding: 10px;
-            border-radius: 10px;
-            width: 1300px;
-            height: 115px;
-            justify-content: center;
-            border: 10%;
-            border-color: #fff;
-        }
-
-        .credits-text {
-            color: rgb(36, 36, 36);
-            font-size: 20px;
-        }
-
-        a {
-            color: #2a70da;
-            text-decoration: none;
-        }
-        
-        .extension-div {
-            background-color: rgb(36, 37, 37);
-            padding: 20px;
-            border-radius: 10px;
-            width: 300px;
-            height: 400px;
-            margin: 20px;
-            display: inline-block;
-            text-align: center;
-        }
-
-        h1 {
-          color: white;
-        }
-
-        h2 {
-          color: white;
-        }
-
-        p {
-          color: white;
-        }
-
-        .extensions-images {
-          border-radius: 10px;
-        }
-
-        hr {
-          border: 1px solid #202020;
-          width: 30%;
-          height: 5px;
-          background-color: #202020;
-          margin: 20px auto;
-          border-radius: 5px;
-        }
-
-        footer {
-          background-color: rgb(36, 37, 37);
-          padding: 20px;
-          border-radius: 10px;
-          width: auto;
-          margin-top: 20px;
-        }
-
-        .footer-p {
-          color: rgb(68, 68, 68);
-          font-size: 16px;
-          text-align: center;
-        }
-      </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
 </head>
     <body>
-        <center>
-       <div class="topbar">
-        <center>
-          <h1 class="topbar-text"><img src="https://jefisalreadytkn.github.io/javashark-extensions/img/javashark_logo.png"> Javashark Extensions</h1>
-</ul>
-        </center>
-      </div>
-      <em>
-        <p class="credits-text">Created by <a href="https://github.com/jefisalreadytkn" target="_blank">sharkyydev</a> &  <a href="https://github.com/Toastyzz0" target="_blank">Toastyzz0 / CinnamonToast</a>
-      </em>
+        <div id="topbar">
+            <img src="img/javashark_logo.png">
+            <h1 id="topbar-text">Javashark Extension List</h1>
+        </div>
+        <p id="credits-text">List created by <a href="https://github.com/jefisalreadytkn" target="_blank">sharkyydev</a> &  <a href="https://github.com/Toastyzz0" target="_blank">Toastyzz0 / CinnamonToast</a>
 
-      <h1>Utility / UI:</h1>
-      <hr>
-      <br>
-        <div class="extension-div">
-        <img class="extensions-images" src="https://xmeroriginals.github.io/xelabs/assets/extensions-images/sweetalert.png" alt="Javashark Logo" width="300" height="">
-        <h2>Sweet Alert</h2>
-        <p>It allows you to send modern customizable alerts using the Sweet Alert Library.</p>
-        <a href="https://jefisalreadytkn.github.io/javashark-extensions/Extentions/sweetalert.js" target="_blank">Source Code</a><br>
-        <a href="https://studio.penguinmod.com/editor.html?extension=https://jefisalreadytkn.github.io/javashark-extensions/Extentions/sweetalert.js" target="_blank">Open in PM</a>
-        <p>Made by: <a href="https://github.com/xmeroriginals">XeLabs</a>
-      </div>
+        <h1>Utility / UI:</h1>
+        <div class="extension_list_host">
+            <div class="extension-list">
+                <script>
+                    const list = [
+                        {
+                            "img": "https://xmeroriginals.github.io/xelabs/assets/extensions-images/sweetalert.png",
+                            "title": "Sweet Alert",
+                            "description": "It allows you to send modern customizable alerts using the Sweet Alert Library.",
+                            "script": "https://raw.githubusercontent.com/xmeroriginals/xelabs/refs/heads/main/extensions/sweetalert.js",
+                            "authors": [
+                                {
+                                    "link": "https://github.com/xmeroriginals",
+                                    "name": "Xmer"
+                                }
+                            ]
+                        },
+                        {
+                            "img": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/images/Rotur.png",
+                            "title": "Rotur Extension",
+                            "description": "An extension for an account system over websockets.",
+                            "script": "https://raw.githubusercontent.com/Mistium/extensions.mistium/main/featured/Rotur.js",
+                            "authors": [
+                                {
+                                    "link": "https://mistium.com",
+                                    "name": "Mistium"
+                                }
+                            ]
+                        },
+                        {
+                            "img": "https://extensions.penguinmod.com/images/LordCat0/ProjectInterfaces.png",
+                            "title": "Project Interfaces",
+                            "description": "Effortlessly create intuitive graphical user interfaces in your projects.",
+                            "script": "https://extensions.penguinmod.com/extensions/LordCat0/ProjectInterfaces.js",
+                            "authors": [
+                                {
+                                    "link": "https://github.com/LordCat0/",
+                                    "name": "Lord Cat"
+                                }
+                            ]
+                        },
+                        {
+                            "img": "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.png",
+                            "title": "Toast Notifications",
+                            "description": "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!",
+                            "script": "https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js",
+                            "authors": [
+                                {
+                                    "link": "https://github.com/cicerorph/",
+                                    "name": "MubiLop",
+                                }
+                            ]
+                        },
+                        {
+                            "img": "https://extensions.turbowarp.org/images/iframe.svg",
+                            "title": "iframe",
+                            "description": "Display webpages or HTML over the stage.",
+                            "script": "https://extensions.turbowarp.org/iframe.js",
+                            "authors": [
+                                {
+                                    "link": "https://turbowarp.com",
+                                    "name": "TurboWarp",
+                                }
+                            ]
+                        },
+                        {
+                            "img": "https://extensions.turbowarp.org/images/TheShovel/CustomStyles.svg",
+                            "title": "Custom Styles",
+                            "description": "Customize the appearance of variable monitors and prompts in your project.",
+                            "script": "https://extensions.turbowarp.org/TheShovel/CustomStyles.js",
+                            "authors": [
+                                {
+                                    "link": "https://theshovel.rocks/",
+                                    "name": "TheShovel",
+                                }
+                            ]
+                        },
+                        {
+                            "img": "https://extensions.turbowarp.org/images/TheShovel/ColorPicker.svg",
+                            "title": "Color Picker",
+                            "description": "Access your system's color picker.",
+                            "script": "https://extensions.turbowarp.org/TheShovel/ColorPicker.js",
+                            "authors": [
+                                {
+                                    "link": "https://theshovel.rocks/",
+                                    "name": "TheShovel",
+                                }
+                            ]
+                        },
+                        {
+                            "img": "https://extensions.turbowarp.org/images/Lily/Video.svg",
+                            "title": "Video",
+                            "description": "Play videos from URLs.",
+                            "script": "https://extensions.turbowarp.org/TheShovel/ColorPicker.js",
+                            "authors": [
+                                {
+                                    "link": "https://scratch.mit.edu/users/LilyMakesThings/",
+                                    "name": "LilyMakesThings",
+                                },
+                                {
+                                    "link": "https://scratch.mit.edu/users/fath11/",
+                                    "name": "Fath11"
+                                }
+                            ]
+                        }
+                    ];
 
-        <div class="extension-div">
-        <img class="extensions-images" src="https://raw.githubusercontent.com/Mistium/extensions.mistium/main/images/Rotur.png" alt="Javashark Logo" width="300" height="170">
-        <h2>Rotur</h2>
-        <p>An accounts system over websockets made by Mistium.</p>
-        <a href="https://jefisalreadytkn.github.io/javashark-extensions/Extentions/rotur.js" target="_blank">Source Code</a><br>
-        <a href="https://studio.penguinmod.com/editor.html?extension=https://jefisalreadytkn.github.io/javashark-extensions/Extentions/rotur.js" target="_blank">Open in PM</a>
-        <p>Made by: <a href="https://github.com/mistium">Mistium</a>
-      </div>
+                    function GenerateDiv(ext) {
+                       const div = document.createElement("div");
+                       div.className = "extension";
+                       div.innerHTML = `
+                            <img src="${ext.img}" alt="${ext.title}">
+                            <h2>${ext.title}</h2>
+                            <p>${ext.description}</p>
+                            <div>
+                                <a href="" target="_blank">Source Code</a>
+                                <a href="https://studio.penguinmod.com/editor.html?extension=${ext.script}" target="_blank">Open in PenguinMod</a>
+                            </div>
+                            <div>
+                                <p class="ext-author">Made by:  ${ext.authors.map((author) => {
+                                    return `<a href="${author.link}">${author.name}</a>`
+                                }).join("  &  ")}</p>
+                            </div>
+                       `;
+                       return div;
+                    }
 
-        <div class="extension-div">
-        <img class="extensions-images" src="https://extensions.penguinmod.com/images/LordCat0/ProjectInterfaces.png" alt="Javashark Logo" width="300" height="170">
-        <h2>Project Interfaces</h2>
-        <p>Effortlessly create intuitive graphical user interfaces in your projects.</p>
-        <a href="https://extensions.penguinmod.com/extensions/LordCat0/ProjectInterfaces.js" target="_blank">Source Code</a><br>
-        <a href="https://studio.penguinmod.com/editor.html?extension=https://extensions.penguinmod.com/extensions/LordCat0/ProjectInterfaces.js" target="_blank">Open in PM</a>
-        <p>Made by: <a href="https://github.com/LordCat0/">Lord Cat</a>
-      </div>
-      </center>
-      <center>
-            <div class="extension-div">
-        <img class="extensions-images" src="https://extensions.penguinmod.com/images/MubiLop/toastnotifs.png" alt="Javashark Logo" width="300" height="170">
-        <h2>Toast Notifications</h2>
-        <p>Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!</p>
-        <a href="https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js" target="_blank">Source Code</a><br>
-        <a href="https://studio.penguinmod.com/editor.html?extension=https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js" target="_blank">Open in PM</a>
-        <p>Made by: <a href="https://github.com/cicerorph/">MubiLop</a>
-      </div>
-        <div class="extension-div">
-        <img class="extensions-images" src="https://extensions.turbowarp.org/images/iframe.svg" alt="Javashark Logo" width="300" height="190">
-        <h2>iframe</h2>
-        <p>Display webpages or HTML over the stage.</p>
-        <a href="https://extensions.turbowarp.org/iframe.js" target="_blank">Source Code</a><br>
-        <a href="https://studio.penguinmod.com/editor.html?extension=https://extensions.turbowarp.org/iframe.js" target="_blank">Open in PM</a>
-        <p>Made by: <a href="https://turbowarp.com">TurboWarp</a>
-      </div>
-        <div class="extension-div">
-        <img class="extensions-images" src="https://extensions.turbowarp.org/images/TheShovel/CustomStyles.svg" alt="Javashark Logo" width="300" height="190">
-        <h2>Custom Styles</h2>
-        <p>Customize the appearance of variable monitors and prompts in your project.</p>
-        <a href="https://extensions.turbowarp.org/TheShovel/CustomStyles.js" target="_blank">Source Code</a><br>
-        <a href="https://studio.penguinmod.com/editor.html?extension=https://extensions.turbowarp.org/TheShovel/CustomStyles.js" target="_blank">Open in PM</a>
-        <p>Made by: <a href="https://theshovel.rocks/">TheShovel</a>
-      </div>
-      <br>
-        <br>
-        </center>
-        <center>
-        <div class="extension-div">
-        <img class="extensions-images" src="https://extensions.turbowarp.org/images/TheShovel/ColorPicker.svg" alt="Javashark Logo" width="300" height="190">
-        <h2>Color Picker</h2>
-        <p>Access your system's color picker.</p>
-        <a href="https://extensions.turbowarp.org/TheShovel/ColorPicker.js" target="_blank">Source Code</a><br>
-        <a href="https://studio.penguinmod.com/editor.html?extension=https://extensions.turbowarp.org/TheShovel/ColorPicker.js" target="_blank">Open in PM</a>
-        <p>Made by: <a href="https://theshovel.rocks/">TheShovel</a>
-      </div>
+                    function GenerateExtension(ext) {
+                        const parent = document.currentScript.parentElement;
+                        parent.appendChild(GenerateDiv(ext));
+                    }
 
-        <div class="extension-div">
-        <img class="extensions-images" src="https://extensions.turbowarp.org/images/Lily/Video.svg" alt="Javashark Logo" width="300" height="190">
-        <h2>Video</h2>
-        <p>Play videos from URLs.</p>
-        <a href="https://extensions.turbowarp.org/TheShovel/ColorPicker.js" target="_blank">Source Code</a><br>
-        <a href="https://studio.penguinmod.com/editor.html?extension=" target="_blank">Open in PM</a>
-        <p>Made by: <a href="https://scratch.mit.edu/users/LilyMakesThings/">LilyMakesThings</a> & <a href="https://scratch.mit.edu/users/fath11/">Fath11</a></p>
-      </div>
-      <hr>
-        </center>
-        <center>
-        <p class="footer-p">this is end lol.</p>
-      </center>
-      <center>
-          <footer>
-        <center>
-          <p class="footer-p">Questons / Requests? <a href="https://discord.gg/RdR5vq7HNv">Discord </a>, <a href="https://github.com/jefisalreadytkn/javashark-extensions">Github </a>, <a href="https://penguinmod.com/">Penguinmod</a>.</p>
-          <p class="footer-p">© 2025 Javashark Extensions | Made with ❤️ by: <a href="https://discord.gg/RdR5vq7HNv">The Sharks Studios</a> | Javashark is not affiliated with TurboWarp, Scratch, The Scratch Team, or the Scratch Foundation. |</p>
-        </center>
-          </footer>
-      </center>
+                    for (let i = 0; i < list.length; i++) {
+                        const element = list[i];
+                        GenerateExtension(element);
+                    }
+                </script>
+            </div>
+        </div>
+
+        <hr>
+
+        <p>this is end lol.</p>
+        <footer>
+            <p>Questons / Requests? <a href="https://discord.gg/RdR5vq7HNv">Discord</a>,  <a href="https://github.com/jefisalreadytkn/javashark-extensions">Github</a>, <a href="https://penguinmod.com/">Penguinmod</a></p>
+            <p>© 2025 Javashark Extensions | Made with ❤️ by: <a href="https://discord.gg/RdR5vq7HNv">The Sharks Studios</a> | Javashark is not affiliated with TurboWarp, Scratch, The Scratch Team, or the Scratch Foundation.</p>
+        </footer>
   </body>
 </html>
