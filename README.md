@@ -1,5 +1,5 @@
 # Javashark Extensions
-<table><tr><td>A cool collection of extensions put into a simple gallery made by marine_bakery.</td></tr></table>
+<table><tr><td>A cool collection of extensions put into a simple gallery made by async.</td></tr></table>
 
 btw made for mainly [PenguinMod](https://penguinmod.com/). [^1]
 
